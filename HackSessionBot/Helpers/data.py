@@ -1,5 +1,4 @@
 from pyrogram.types import InlineKeyboardButton as IKB, InlineKeyboardMarkup as IKM 
-const port = process.env.PORT || 4000
 
 PM_TEXT = """
 **ʜᴇʏ {},**
