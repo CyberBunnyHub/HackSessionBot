@@ -18,7 +18,11 @@ if __name__ == "__main__":
     threading.Thread(target=run_flask).start()
 
     # Then start your actual bot logic (make sure it's not blocking)
-    from HackSessionBot.__main__ import run_bot  # adjust to your entrypoint
+    # HackSessionBot/__main__.py
+
+from HackSessionBot.bot import run_bot
+
+if __name__ == "__main__":
     run_bot()
     
     import asyncio
