@@ -1,3 +1,4 @@
+flask
 pyrogram==2.0.97
 pyromod==1.5
 TgCrypto
