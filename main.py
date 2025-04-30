@@ -1,3 +1,5 @@
+from HackSessionBot.main import run_bot
+
 import threading
 from flask import Flask
 import os
